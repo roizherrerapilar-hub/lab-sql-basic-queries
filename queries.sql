@@ -29,7 +29,6 @@ SELECT *
 FROM actor
 WHERE first_name = 'SCARLETT';
 
-#Bonus
 SELECT title, length
 FROM film
 WHERE title LIKE '%ARMAGEDDON%'
