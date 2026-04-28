@@ -19,6 +19,7 @@ SELECT COUNT(*) FROM film;
 SELECT COUNT(*) FROM rental;
 SELECT COUNT(DISTINCT last_name) FROM actor;
 
+
 SELECT title, length
 FROM film
 ORDER BY length DESC
@@ -28,6 +29,7 @@ SELECT *
 FROM actor
 WHERE first_name = 'SCARLETT';
 
+#Bonus
 SELECT title, length
 FROM film
 WHERE title LIKE '%ARMAGEDDON%'
